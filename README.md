@@ -1420,7 +1420,7 @@ NGINX has following variables (unique keys) that can be used in a rate limiting 
 | <b>VARIABLE</b> | <b>DESCRIPTION</b> |
 | :---         | :---         |
 | `$remote_addr` | client address |
-| `$binary_remote_addr`| client address in a binary form, it is smaller and saves space then `remote_addr` |
+| `$binary_remote_addr`| client address in a binary form, it is smaller and saves space than `remote_addr` |
 | `$server_name` | name of the server which accepted a request |
 | `$request_uri` | full original request URI (with arguments) |
 | `$query_string` | arguments in the request line |
